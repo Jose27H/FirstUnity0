@@ -1,0 +1,374 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.14f1 (eff2de9070d8) revision 15725278'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16332 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/joseh/OneDrive/BrockU/IASC3F93/FirstUnity0
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+6415
+Successfully changed project path to: C:/Users/joseh/OneDrive/BrockU/IASC3F93/FirstUnity0
+C:/Users/joseh/OneDrive/BrockU/IASC3F93/FirstUnity0
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18444] Host "[IP] 192.168.0.43 [Port] 0 [Flags] 2 [Guid] 1034942571 [EditorId] 1034942571 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7R598S7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18444] Host "[IP] 192.168.0.43 [Port] 0 [Flags] 2 [Guid] 1034942571 [EditorId] 1034942571 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7R598S7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 1461.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.14f1 (eff2de9070d8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/joseh/OneDrive/BrockU/IASC3F93/FirstUnity0/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6800 (ID=0x73bf)
+    Vendor:   ATI
+    VRAM:     16338 MB
+    Driver:   31.0.21023.2010
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.194978 seconds.
+- Loaded All Assemblies, in  5.422 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.258 seconds
+Domain Reload Profiling: 5678ms
+	BeginReloadAssembly (3902ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (364ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (252ms)
+	LoadAllAssembliesAndSetupDomain (885ms)
+		LoadAssemblies (3897ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (883ms)
+			TypeCache.Refresh (882ms)
+				TypeCache.ScanAssembly (674ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (258ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (200ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (128ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  5.936 seconds
+Refreshing native plugins compatible for Editor in 4.23 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.009 seconds
+Domain Reload Profiling: 6939ms
+	BeginReloadAssembly (154ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (5684ms)
+		LoadAssemblies (5235ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (541ms)
+			TypeCache.Refresh (515ms)
+				TypeCache.ScanAssembly (464ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1010ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (851ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (676ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 4.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4351 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (1.5 MB). Loaded Objects now: 4807.
+Memory consumption went from 170.3 MB to 168.8 MB.
+Total: 3.888500 ms (FindLiveObjects: 0.399500 ms CreateObjectMapping: 0.112000 ms MarkObjects: 2.968700 ms  DeleteObjects: 0.407400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.507 seconds
+Refreshing native plugins compatible for Editor in 4.36 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.273 seconds
+Domain Reload Profiling: 1775ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (260ms)
+		LoadAssemblies (333ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1274ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (703ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (138ms)
+			ProcessInitializeOnLoadAttributes (520ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 4.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4287 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (1.4 MB). Loaded Objects now: 4810.
+Memory consumption went from 157.3 MB to 155.9 MB.
+Total: 3.484300 ms (FindLiveObjects: 0.374100 ms CreateObjectMapping: 0.110400 ms MarkObjects: 2.543300 ms  DeleteObjects: 0.455400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 516465.320720 seconds.
+  path: Assets/Materials/walls.mat
+  artifactKey: Guid(a8f1ea3742c13574ba20da45d0dac7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/walls.mat using Guid(a8f1ea3742c13574ba20da45d0dac7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46adbab350abad7769cc67b66bd78b60') in 0.104904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 443.131940 seconds.
+  path: Assets/Door, Cabinet and Locker Sound Pack (Free)/FREE VERSION/Call Elevator Button Lift Big Large Mechanical Noise 1.wav
+  artifactKey: Guid(ccb8c34bde4eb41389aa1c83a3ab0e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Door, Cabinet and Locker Sound Pack (Free)/FREE VERSION/Call Elevator Button Lift Big Large Mechanical Noise 1.wav using Guid(ccb8c34bde4eb41389aa1c83a3ab0e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba4d061d337bf3391a9f535a7c86359') in 0.082335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Door, Cabinet and Locker Sound Pack (Free)/FREE VERSION/Unlock 1.wav
+  artifactKey: Guid(c70d84ab81270450ca59ba4554ce5a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Door, Cabinet and Locker Sound Pack (Free)/FREE VERSION/Unlock 1.wav using Guid(c70d84ab81270450ca59ba4554ce5a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be31dfdd5169a3501df43c5f83792da5') in 0.017086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Door, Cabinet and Locker Sound Pack (Free)/FREE VERSION/Close Metal Door Locker Cabinet Box 1.wav
+  artifactKey: Guid(9ee2bbf3911a4448bbcbb25e6e57c892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Door, Cabinet and Locker Sound Pack (Free)/FREE VERSION/Close Metal Door Locker Cabinet Box 1.wav using Guid(9ee2bbf3911a4448bbcbb25e6e57c892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10a47c70bf8d803d3781183d07f539c') in 0.023983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Door, Cabinet and Locker Sound Pack (Free)/FREE VERSION/Closing Shutter Sliding Door 1.wav
+  artifactKey: Guid(62a63664aea9043ddafb1339ed6e476d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Door, Cabinet and Locker Sound Pack (Free)/FREE VERSION/Closing Shutter Sliding Door 1.wav using Guid(62a63664aea9043ddafb1339ed6e476d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ae039b9b89b24f8d9a158efb0e6878') in 0.027735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Door, Cabinet and Locker Sound Pack (Free)/FREE VERSION/Open and Close Door 2.wav
+  artifactKey: Guid(ba47ededc29024b38b09ca7d6d7c322a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Door, Cabinet and Locker Sound Pack (Free)/FREE VERSION/Open and Close Door 2.wav using Guid(ba47ededc29024b38b09ca7d6d7c322a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd309da10ec5c6b78462405e218d4c954') in 0.022639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Door, Cabinet and Locker Sound Pack (Free)/FREE VERSION/Swinging Metal Door Clang Shut 1.wav
+  artifactKey: Guid(d0e9bbc92e8ca42ec81b4a5afc5ab590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Door, Cabinet and Locker Sound Pack (Free)/FREE VERSION/Swinging Metal Door Clang Shut 1.wav using Guid(d0e9bbc92e8ca42ec81b4a5afc5ab590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6336438e5b88c9118cdf73e02b94cbe') in 0.029122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Door, Cabinet and Locker Sound Pack (Free)/FREE VERSION/Window Sliding Open Furniture Moving 3.wav
+  artifactKey: Guid(a060384cf2636489b90324a5df9d539f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Door, Cabinet and Locker Sound Pack (Free)/FREE VERSION/Window Sliding Open Furniture Moving 3.wav using Guid(a060384cf2636489b90324a5df9d539f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78334f5b7ce51d6b0f976c23d7c5f551') in 0.025373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Door, Cabinet and Locker Sound Pack (Free)/FREE VERSION/Open Close Metal Door Locker Cabinet Box 3.wav
+  artifactKey: Guid(a2730fd02f17e4ea99168876aa5c6305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Door, Cabinet and Locker Sound Pack (Free)/FREE VERSION/Open Close Metal Door Locker Cabinet Box 3.wav using Guid(a2730fd02f17e4ea99168876aa5c6305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08403c820f97313e750914bfe9b44881') in 0.049829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Door, Cabinet and Locker Sound Pack (Free)/FREE VERSION/Metal Clasp Open Container Door Box 1.wav
+  artifactKey: Guid(2f600d94602564a99ad4dad55a4a317d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Door, Cabinet and Locker Sound Pack (Free)/FREE VERSION/Metal Clasp Open Container Door Box 1.wav using Guid(2f600d94602564a99ad4dad55a4a317d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131144753277eab6ff2f4ef6676643ca') in 0.023271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Door, Cabinet and Locker Sound Pack (Free)/FREE VERSION/Open Push Door With Long Creak 1.wav
+  artifactKey: Guid(688dc6b0efab144ef8db87692e54ca5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Door, Cabinet and Locker Sound Pack (Free)/FREE VERSION/Open Push Door With Long Creak 1.wav using Guid(688dc6b0efab144ef8db87692e54ca5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ccc087ddf8e36b86b67e49dbed324c') in 0.035114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Door, Cabinet and Locker Sound Pack (Free)/FREE VERSION/Locked Door Turn Doorknob 3.wav
+  artifactKey: Guid(ba0dd6d8b717e403ca0fa3bdebe97dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Door, Cabinet and Locker Sound Pack (Free)/FREE VERSION/Locked Door Turn Doorknob 3.wav using Guid(ba0dd6d8b717e403ca0fa3bdebe97dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e33561e4cc8731c3bd2d3ef26f6fc4') in 0.018860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Door, Cabinet and Locker Sound Pack (Free)/FREE VERSION/Open Door 7.wav
+  artifactKey: Guid(a200ceb3276a64815ba89e6db4488604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Door, Cabinet and Locker Sound Pack (Free)/FREE VERSION/Open Door 7.wav using Guid(a200ceb3276a64815ba89e6db4488604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7199b61f4cfc8ed7cd5a5f5dfe00acf') in 0.018987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Door, Cabinet and Locker Sound Pack (Free)/FREE VERSION/Close Door 23.wav
+  artifactKey: Guid(898f03a7c6c254aa2bffc1050c10ea08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Door, Cabinet and Locker Sound Pack (Free)/FREE VERSION/Close Door 23.wav using Guid(898f03a7c6c254aa2bffc1050c10ea08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4f11dbd75c74a4248234e268c09a9f') in 0.015845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Door, Cabinet and Locker Sound Pack (Free)/FREE VERSION/Close Door 12.wav
+  artifactKey: Guid(04213f14ae5074a84b3c41aef6b6a00f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Door, Cabinet and Locker Sound Pack (Free)/FREE VERSION/Close Door 12.wav using Guid(04213f14ae5074a84b3c41aef6b6a00f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a2d8e572d736a79dabda09ef89ded7') in 0.018694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
